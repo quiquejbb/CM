@@ -17,5 +17,4 @@ Technologies Used
 
 Disclaimer
 
-This is a technical proof-of-concept project provided for **development and integration purposes only**.  
-It does not access or block real camera devices, and is not intended for production use.
+This is a technical proof-of-concept project provided for **development and integration purposes only** and is not intended for production use.
