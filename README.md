@@ -1,13 +1,21 @@
-# CM — macOS Camera Utility
+# CM — macOS Virtual Camera Utility
 
-CM is an experimental macOS utility that uses DriverKit and Apple’s Camera Extension framework to build a virtual camera with overlay support.
+CM is a macOS utility that implements a basic virtual camera using Apple’s **Camera Extension** and **DriverKit** frameworks.
 
-This project is built using:
-- SwiftUI for the main app UI
-- SystemExtension + Camera Extension (CMIOExtension)
-- DriverKit for virtual camera exposure
+The goal of this project is to build a notarized, sandbox-compliant virtual camera that can be controlled via a SwiftUI app. It serves as a reference implementation for exploring **secure communication** between a user-facing app and a system extension using Apple's modern APIs.
 
-The goal is to explore camera interface capabilities on modern macOS using entirely sandbox-safe, notarizable components.
+---
 
-This project is an experimental camera extension for macOS using Apple's CMIOExtension and DriverKit frameworks.
-It is not intended for production use. The actual functionality is limited to demo purposes only.
+Technologies Used
+
+- **SwiftUI** for the main macOS app interface
+- **CMIOExtension** for exposing the virtual camera stream
+- **DriverKit** for system extension support
+- **SMAppService** for managing privileged helpers securely
+
+---
+
+Disclaimer
+
+This is a technical proof-of-concept project provided for **development and integration purposes only**.  
+It does not access or block real camera devices, and is not intended for production use.
