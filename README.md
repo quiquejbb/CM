@@ -9,3 +9,5 @@ This project is built using:
 
 The goal is to explore camera interface capabilities on modern macOS using entirely sandbox-safe, notarizable components.
 
+This project is an experimental camera extension for macOS using Apple's CMIOExtension and DriverKit frameworks.
+It is not intended for production use. The actual functionality is limited to demo purposes only.
